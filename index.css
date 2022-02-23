@@ -1,10 +1,63 @@
-#name{
-  
+* {
+  margin:0;
+  padding:0;
+}
+#header{
+  background-color:black;
+  padding:10px;
+    border: 10px solid #19f779;
+    margin-right:auto
   
 }
+#name{
+  background-color:grey
+}
+#name img{
+  width:60px;
+}
+
 #title{
+  background-color:grey;
   
+}
+#title h1{
+  text-align:center;
+  padding:15px;
+  font-size:80px;
+}
+#middle{
+  width:100%;
+  margin:0px auto;
+  height:500px;
+  background-color:#19f779;
+  border-bottom:solid black;
 }
 #Pic{
-  background-color:black
+  background-color:black;
+  float:left;
+ 
+}
+#Pic img {
+  width:500px;
+  height:500px;
+}
+
+#List{
+  background-color:grey;
+  border: 1px solid green;
+  float:right;
+  width:63%;
+}
+#List ol{
+  padding:55px;
+}
+#bio{
+  width:100%;
+  background-color:#19f779;
+}
+#bio img{
+  height:400px;
+}
+#bio p{
+  
 }
